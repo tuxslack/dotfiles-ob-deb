@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox 3">
+		<menu id="root-menu-704740" label="Favoritos">
+			<item label="Firefox">
+				<action name="Execute">
+					<execute>firefox</execute>
+				</action>
+			</item>
+			<item label="Thunderbird">
+				<action name="Execute">
+					<execute>thunderbird</execute>
+				</action>
+			</item>
+			<item label="Whatsie">
+				<action name="Execute">
+					<execute>whatsie</execute>
+				</action>
+			</item>
+			<item label="Telegram">
+				<action name="Execute">
+					<execute>/opt/telegram/Telegram</execute>
+				</action>
+			</item>
+			<item label="Netflix">
+				<action name="Execute">
+					<execute>/opt/google/chrome/google-chrome --profile-directory=Default --app-id=eppojlglocelodeimnohnlnionkobfln</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Calculadora">
+				<action name="Execute">
+					<execute>gnome-calculator</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Mousepad">
+				<action name="Execute">
+					<execute>mousepad</execute>
+				</action>
+			</item>
+			<item label="Geany">
+				<action name="Execute">
+					<execute>geany</execute>
+				</action>
+			</item>
+			<item label="Atom">
+				<action name="Execute">
+					<execute>atom</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="LIbreOffice Writer">
+				<action name="Execute">
+					<execute>libreoffice --writer</execute>
+				</action>
+			</item>
+			<item label="LibreOffice Calc">
+				<action name="Execute">
+					<execute>libreoffice --calc</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Gimp">
+				<action name="Execute">
+					<execute>gimp</execute>
+				</action>
+			</item>
+			<item label="Inkscape">
+				<action name="Execute">
+					<execute>inkscape</execute>
+				</action>
+			</item>
+			<item label="TypeCatcher">
+				<action name="Execute">
+					<execute>typecatcher</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Simple Screen Recorder">
+				<action name="Execute">
+					<execute>simplescreenrecorder</execute>
+				</action>
+			</item>
+			<item label="Kdenlive">
+				<action name="Execute">
+					<execute>kdenlive</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="VirtualBox">
+				<action name="Execute">
+					<execute>virtualbox</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Wesnoth">
+				<action name="Execute">
+					<execute>wesnoth</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-973738" label="Locais">
+			<item label="Pasta Pessoal">
+				<action name="Execute">
+					<execute>thunar ~/</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Documentos">
+				<action name="Execute">
+					<execute>thunar ~/Documentos</execute>
+				</action>
+			</item>
+			<item label="Downloads">
+				<action name="Execute">
+					<execute>thunar ~/Downloads</execute>
+				</action>
+			</item>
+			<item label="Imagens">
+				<action name="Execute">
+					<execute>thunar ~/Imagens</execute>
+				</action>
+			</item>
+			<item label="Música">
+				<action name="Execute">
+					<execute>thunar ~/Música</execute>
+				</action>
+			</item>
+			<item label="Vídeos">
+				<action name="Execute">
+					<execute>thunar ~/Vídeos</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Clientes">
+				<action name="Execute">
+					<execute>thunar ~/Documentos/Tradução/clientes</execute>
+				</action>
+			</item>
+			<item label="Gits">
+				<action name="Execute">
+					<execute>thunar ~/Gits</execute>
+				</action>
+			</item>
+			<item label="OmegaT">
+				<action name="Execute">
+					<execute>thunar ~/Documentos/Tradução/omegat/</execute>
+				</action>
+			</item>
+			<item label="Projetos">
+				<action name="Execute">
+					<execute>thunar ~/Projetos</execute>
+				</action>
+			</item>
+			<item label="Públic HTML">
+				<action name="Execute">
+					<execute>thunar ~/public_html</execute>
+				</action>
+			</item>
+			<item label="Scripts">
+				<action name="Execute">
+					<execute>thunar ~/scripts</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label=".config">
+				<action name="Execute">
+					<execute>thunar ~/.config</execute>
+				</action>
+			</item>
+			<item label=".fonts">
+				<action name="Execute">
+					<execute>thunar ~/.fonts</execute>
+				</action>
+			</item>
+			<item label=".icons">
+				<action name="Execute">
+					<execute>thunar ~/.icons</execute>
+				</action>
+			</item>
+			<item label=".local">
+				<action name="Execute">
+					<execute>thunar ~/.local</execute>
+				</action>
+			</item>
+			<item label=".themes">
+				<action name="Execute">
+					<execute>thunar ~/.themes</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Acer SSH">
+				<action name="Execute">
+					<execute>thunar sftp://192.168.25.39/home/blau/</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Sistema de Arquivos">
+				<action name="Execute">
+					<execute>thunar /</execute>
+				</action>
+			</item>
+			<item label="Computador">
+				<action name="Execute">
+					<execute>thunar computer:///</execute>
+				</action>
+			</item>
+			<item label="Lixeira">
+				<action name="Execute">
+					<execute>thunar trash:///</execute>
+				</action>
+			</item>
+		</menu>
+		<!-- This requires the presence of the 'menu' package to work -->
+		<separator/>
+		<item label="Executar">
+			<action name="Execute">
+				<execute>gmrun</execute>
+			</action>
+		</item>
+		<item label="Terminal">
+			<action name="Execute">
+				<execute>xfce4-terminal</execute>
+			</action>
+		</item>
+		<item label="Procurar">
+			<action name="Execute">
+				<execute>catfish</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu execute="openbox-menu lxde-applications.menu" id="desktop-app-menu" label="Aplicativos"/>
+		<separator/>
+		<menu id="root-menu-3263" label="Configurações">
+			<menu id="root-menu-3263-41642" label="OpenBox">
+				<item label="ObConf">
+					<action name="Execute">
+						<execute>obconf</execute>
+					</action>
+				</item>
+				<item label="ObMenu">
+					<action name="Execute">
+						<execute>obmenu</execute>
+					</action>
+				</item>
+				<separator/>
+				<item label="autostart.sh">
+					<action name="Execute">
+						<execute>geany ~/.config/openbox/autostart.sh</execute>
+					</action>
+				</item>
+				<item label="menu.xml">
+					<action name="Execute">
+						<execute>geany ~/.config/openbox/menu.xml</execute>
+					</action>
+				</item>
+				<item label="rc.xml">
+					<action name="Execute">
+						<execute>geany ~/.config/openbox/rc.xml</execute>
+					</action>
+				</item>
+				<separator/>
+				<item label="Reconfigurar">
+					<action name="Reconfigure"/>
+				</item>
+				<item label="Reiniciar">
+					<action name="Restart"/>
+				</item>
+			</menu>
+			<menu id="root-menu-3263-554041" label="Aparência">
+				<item label="LxAppearance">
+					<action name="Execute">
+						<execute>lxappearance</execute>
+					</action>
+				</item>
+				<item label="LXAppearance - root">
+					<action name="Execute">
+						<execute>gksu lxappearance</execute>
+					</action>
+				</item>
+				<item label="Papel de Parede">
+					<action name="Execute">
+						<execute>nitrogen</execute>
+					</action>
+				</item>
+				<item label="Tint2 Config">
+					<action name="Execute">
+						<execute>tint2conf</execute>
+					</action>
+				</item>
+				<item label="Tint2 Restart">
+					<action name="Execute">
+						<execute>~/scripts/tint2restart</execute>
+					</action>
+				</item>
+				<separator/>
+				<item label="Gtk-3.0 settings.ini">
+					<action name="Execute">
+						<execute>geany ~/.config/gtk-3.0/settings.ini</execute>
+					</action>
+				</item>
+				<item label="Xresources">
+					<action name="Execute">
+						<execute>geany ~/.Xresources</execute>
+					</action>
+				</item>
+			</menu>
+			<separator/>
+			<item label="Exibir atalhos de teclado">
+				<action name="Execute">
+					<execute>~/scripts/shortcuts/keys_cheatsheet.sh</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Gerenciador de Energia">
+				<action name="Execute">
+					<execute>xfce4-power-manager-settings</execute>
+				</action>
+			</item>
+			<item label="LightDM">
+				<action name="Execute">
+					<execute>gksu lightdm-gtk-greeter-settings</execute>
+				</action>
+			</item>
+			<item label="Mixer do Pulseaudio">
+				<action name="Execute">
+					<execute>pavucontrol</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="conkyrc">
+				<action name="Execute">
+					<execute>geany ~/.conkyrc</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-505615" label="Sistema">
+			<item label="Terminal (su)">
+				<action name="Execute">
+					<execute>gksu xfce4-terminal</execute>
+				</action>
+			</item>
+			<item label="Gerenciador de Arquivos (su)">
+				<action name="Execute">
+					<execute>gksu thunar /</execute>
+				</action>
+			</item>
+			<item label="Editor de Textos (su)">
+				<action name="Execute">
+					<execute>gksu geany</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Gerenciador de Pacotes">
+				<action name="Execute">
+					<execute>gksu synaptic-pkexec</execute>
+				</action>
+			</item>
+			<item label="Atualizar Programas">
+				<action name="Execute">
+					<execute>xfce4-terminal -e &quot;bash -c 'sudo apt-get update &amp;&amp; sudo apt-get upgrade';bash&quot;</execute>
+				</action>
+			</item>
+			<item label="Editar sources.list">
+				<action name="Execute">
+					<execute>gksu geany /etc/apt/sources.list</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Htop">
+				<action name="Execute">
+					<execute>xfce4-terminal -e htop</execute>
+				</action>
+			</item>
+			<item label="Gerenciador de Tarefas">
+				<action name="Execute">
+					<execute>xfce4-taskmanager</execute>
+				</action>
+			</item>
+			<item label="Matar Janela">
+				<action name="Execute">
+					<execute>xkill</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Informações de Rede">
+				<action name="Execute">
+					<execute>xfce4-terminal -e &quot;bash -c 'sudo ifconfig';bash&quot;</execute>
+				</action>
+			</item>
+			<item label="Informações do Sistema">
+				<action name="Execute">
+					<execute>xfce4-terminal -e &quot;bash -c 'inxi -F';bash&quot;</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="root-menu-834713" label="Tradução">
+			<item label="FileZilla">
+				<action name="Execute">
+					<execute>filezilla</execute>
+				</action>
+			</item>
+			<item label="Geany">
+				<action name="Execute">
+					<execute>geany</execute>
+				</action>
+			</item>
+			<item label="GoldenDict">
+				<action name="Execute">
+					<execute>goldendict</execute>
+				</action>
+			</item>
+			<item label="OmegaT">
+				<action name="Execute">
+					<execute>java -jar -Xmx512M /opt/omegat/OmegaT-default/OmegaT.jar</execute>
+				</action>
+			</item>
+			<item label="LibreOffice Writer">
+				<action name="Execute">
+					<execute>libreoffice --writer</execute>
+				</action>
+			</item>
+			<item label="LibreOffice Calc">
+				<action name="Execute">
+					<execute>libreoffice --calc</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Google Tradutor">
+				<action name="Execute">
+					<execute>firefox https://translate.google.com.br/?hl=pt-BR&amp;tab=wT</execute>
+				</action>
+			</item>
+			<separator/>
+			<menu id="root-menu-834713-445836" label="Pastas de Clientes">
+				<item label="Grupo Macias">
+					<action name="Execute">
+						<execute>thunar /home/gda/Documentos/Tradução/clientes/macias/</execute>
+					</action>
+				</item>
+				<item label="Marcelo">
+					<action name="Execute">
+						<execute>thunar /home/gda/Documentos/Tradução/clientes/marcelo/</execute>
+					</action>
+				</item>
+				<item label="Sigma">
+					<action name="Execute">
+						<execute>thunar /home/gda/Documentos/Tradução/clientes/sigma/</execute>
+					</action>
+				</item>
+			</menu>
+			<item label="Pasta Omegat">
+				<action name="Execute">
+					<execute>thunar ~/Documentos/Tradução/omegat</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Controle 2017">
+				<action name="Execute">
+					<execute>libreoffice ~/Documentos/Tradução/clientes/controle-2017.ods</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-76745" label="Desenvolvimento">
+			<item label="FileZilla">
+				<action name="Execute">
+					<execute>filezilla</execute>
+				</action>
+			</item>
+			<item label="Geany">
+				<action name="Execute">
+					<execute>geany</execute>
+				</action>
+			</item>
+			<item label="Atom">
+				<action name="Execute">
+					<execute>atom</execute>
+				</action>
+			</item>
+			<item label="Xampp">
+				<action name="Execute">
+					<execute>gksu /opt/lampp/share/xampp-control-panel/xampp-control-panel</execute>
+				</action>
+			</item>
+			<item label="Gimp">
+				<action name="Execute">
+					<execute>gimp</execute>
+				</action>
+			</item>
+			<item label="Inkscape">
+				<action name="Execute">
+					<execute>inkscape</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Localhost">
+				<action name="Execute">
+					<execute>firefox http://localhost/</execute>
+				</action>
+			</item>
+			<item label="Index em /gda ">
+				<action name="Execute">
+					<execute>firefox http://localhost/gda/</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Google Fonts">
+				<action name="Execute">
+					<execute>firefox https://fonts.google.com/</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Pasta Public HTML">
+				<action name="Execute">
+					<execute>thunar ~/public_html</execute>
+				</action>
+			</item>
+			<item label="Pasta Scripts">
+				<action name="Execute">
+					<execute>thunar ~/scripts</execute>
+				</action>
+			</item>
+			<item label="Pasta Projetos">
+				<action name="Execute">
+					<execute>thunar ~/Projetos</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-972432" label="Produção Musical">
+			<item label="Ardour">
+				<action name="Execute">
+					<execute>ardour5</execute>
+				</action>
+			</item>
+			<item label="Audacity">
+				<action name="Execute">
+					<execute>audacity</execute>
+				</action>
+			</item>
+			<item label="Conversor de Som">
+				<action name="Execute">
+					<execute>soundconverter</execute>
+				</action>
+			</item>
+			<item label="Hydrogen">
+				<action name="Execute">
+					<execute>hydrogen</execute>
+				</action>
+			</item>
+			<item label="LMMS">
+				<action name="Execute">
+					<execute>lmms</execute>
+				</action>
+			</item>
+			<item label="MuseScore">
+				<action name="Execute">
+					<execute>musescore</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Mixer do Pulseaudio">
+				<action name="Execute">
+					<execute>pavucontrol</execute>
+				</action>
+			</item>
+			<item label="Alsamixer">
+				<action name="Execute">
+					<execute>xfce4-terminal -e alsamixer</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Pasta Música">
+				<action name="Execute">
+					<execute>thunar ~/Música</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<item label="Sair             Ctrl+Alt+Bksp">
+			<action name="Execute">
+				<execute>~/scripts/session-logout.sh</execute>
+			</action>
+		</item>
+	</menu>
+</openbox_menu>
