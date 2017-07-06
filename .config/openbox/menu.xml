@@ -190,9 +190,9 @@
 				</action>
 			</item>
 			<separator/>
-			<item label="Acer SSH">
+			<item label="SSH">
 				<action name="Execute">
-					<execute>thunar sftp://192.168.25.39/home/blau/</execute>
+					<execute>thunar sftp://...</execute>
 				</action>
 			</item>
 			<separator/>
@@ -291,7 +291,7 @@
 				</item>
 				<item label="Tint2 Restart">
 					<action name="Execute">
-						<execute>~/scripts/tint2restart</execute>
+						<execute>~/scripts/tint2/tint2restart</execute>
 					</action>
 				</item>
 				<separator/>
@@ -434,32 +434,9 @@
 				</action>
 			</item>
 			<separator/>
-			<menu id="root-menu-834713-445836" label="Pastas de Clientes">
-				<item label="Grupo Macias">
-					<action name="Execute">
-						<execute>thunar /home/gda/Documentos/Tradução/clientes/macias/</execute>
-					</action>
-				</item>
-				<item label="Marcelo">
-					<action name="Execute">
-						<execute>thunar /home/gda/Documentos/Tradução/clientes/marcelo/</execute>
-					</action>
-				</item>
-				<item label="Sigma">
-					<action name="Execute">
-						<execute>thunar /home/gda/Documentos/Tradução/clientes/sigma/</execute>
-					</action>
-				</item>
-			</menu>
 			<item label="Pasta Omegat">
 				<action name="Execute">
 					<execute>thunar ~/Documentos/Tradução/omegat</execute>
-				</action>
-			</item>
-			<separator/>
-			<item label="Controle 2017">
-				<action name="Execute">
-					<execute>libreoffice ~/Documentos/Tradução/clientes/controle-2017.ods</execute>
 				</action>
 			</item>
 		</menu>
@@ -580,7 +557,7 @@
 		<separator/>
 		<item label="Sair             Ctrl+Alt+Bksp">
 			<action name="Execute">
-				<execute>~/scripts/session-logout.sh</execute>
+				<execute>~/scripts/openbox/session-logout.sh</execute>
 			</action>
 		</item>
 	</menu>
