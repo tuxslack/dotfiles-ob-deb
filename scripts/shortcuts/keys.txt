@@ -1,0 +1,74 @@
+<body style="background-color: #e9e9e9;">
+<pre>
+
+  <b>&bull; F12</b> .................. Atalhos de Teclado
+  
+  <b>SCREENSHOTS</b>
+  
+  <b>&bull; PrtScr</b> ............... Desktop
+  <b>&bull; Alt PrtScr</b> ........... Janela
+  <b>&bull; Shift PrtScr</b> ......... Região
+  
+  <b>MENUS</b>
+  
+  <b>&bull; Super Space</b> .......... Root Menu
+  <b>&bull; Alt F1</b> ............... App Menu
+  
+  <b>&bull; Super B</b> .............. Menu Favoritos
+  <b>&bull; Super P</b> .............. Menu Locais
+  <b>&bull; Super S</b> .............. Menu Configurações
+  <b>&bull; Super R</b> .............. Menu Sistema
+  
+  <b>MENUS DE ATIVIDADES</b>
+  
+  <b>&bull; Super 1</b> .............. Tradução
+  <b>&bull; Super 2</b> .............. Desenvolvimento
+  <b>&bull; Super 3</b> .............. Produção Musical
+  
+  <b>MOVIMENTAÇÃO DE JANELAS</b>
+  
+  <b>&bull; Super NumPad1</b> ........ ↙ Move
+  <b>&bull; Super NumPad2</b> ........ ↓ Move
+  <b>&bull; Super NumPad3</b> ........ ↘ Move
+  <b>&bull; Super NumPad4</b> ........ ← Move
+  <b>&bull; Super NumPad5</b> ........ ✛ Centraliza
+  <b>&bull; Super NumPad6</b> ........ → Move
+  <b>&bull; Super NumPad7</b> ........ ↖ Move
+  <b>&bull; Super NumPad8</b> ........ ↑ Move
+  <b>&bull; Super NumPad9</b> ........ ↗ Move
+  
+  <b>ACESSÓRIOS</b>
+  
+  <b>&bull; Alt F2</b> ............... gmrun
+  <b>&bull; Alt F3</b> ............... Catfish
+  <b>&bull; Super T</b> .............. Terminal
+  <b>&bull; Super M</b> .............. Mixer do Pulseaudio
+  
+  <b>MAXIMIZAR/MINIMIZAR</b>
+  
+  <b>&bull; Super Shift +</b> ........ Maximizar/Restaurar
+  <b>&bull; Super Shift -</b> ........ Minimizar
+  
+  <b>&bull; Super Shift V</b> ........ Maximizar/Restaurar Verticalmente
+  <b>&bull; Super Shift H</b> ........ Maximizar/Restaurar Horizontalmente
+  
+  <b>TILING</b>
+  
+  <b>&bull; Super Ctrl NumPad7</b> ... ↖ Move+Redim: 50% de Largura e Altura
+  <b>&bull; Super Ctrl NumPad9</b> ... ↗ Move+Redim: 50% de Largura e Altura
+  <b>&bull; Super Ctrl NumPad1</b> ... ↙ Move+Redim: 50% de Largura e Altura
+  <b>&bull; Super Ctrl NumPad3</b> ... ↘ Move+Redim: 50% de Largura e Altura
+  
+  <b>&bull; Super Ctrl NumPad8</b> ... ↑ Move+Redim: 50% de Altura e 100% Altura
+  <b>&bull; Super Ctrl NumPad2</b> ... ↓ Move+Redim: 50% de Altura e 100% Altura
+  <b>&bull; Super Ctrl NumPad4</b> ... ← Move+Redim: 50% de Largura e 100% Altura
+  <b>&bull; Super Ctrl NumPad6</b> ... → Move+Redim: 50% de Largura e 100% Altura
+  
+  <b>OPENBOX</b>
+  
+  <b>&bull; Ctrl Alt R</b> ........... Reiniciar OpenBox
+  <b>&bull; Ctrl Alt E</b> ........... Reconfigurar OpenBox
+  <b>&bull; Ctrl Alt BackSpace</b> ... Sair
+
+</pre>
+</body>
