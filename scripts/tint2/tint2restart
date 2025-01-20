@@ -1,9 +1,15 @@
 #!/bin/bash
 
+clear
+
+which tint2 || exit
+
 if [ "$(pidof tint2)" ]; then
-    killall tint2 && sleep 1s && tint2 &
-    exit 0
+    killall -9 tint2 && sleep 1s && tint2 &
+    exit 1
 else
     tint2 &
-    exit 0
+    exit 2
 fi
+
+exit 0
