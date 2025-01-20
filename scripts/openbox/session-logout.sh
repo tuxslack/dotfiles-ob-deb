@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ask=`zenity --list --title="Sair" --text="Opções" --column="0" "Logout" "Suspender" "Reiniciar" "Desligar" --hide-header`
+ask=`yad --center --list --title="Sair" --text="Opções" --column="0" "Logout" "Suspender" "Reiniciar" "Desligar" --hide-header`
 
 if [ "$ask" == "Logout" ]; then
 	openbox --exit &
